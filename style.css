@@ -1,0 +1,46 @@
+body{
+  background-color: lightblue;
+  color: black;
+  ;
+
+}
+div{
+  background-color: aquamarine; 
+  text-align: center;
+  
+}
+ul{
+  list-style: none;
+}
+#fill{
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  
+}
+#joona{
+  height:7%;
+}
+#lisaa{
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+#check{
+  background-color: lightblue;
+  text-align: left;
+  width: 70%; 
+  margin: auto;
+}
+#merkinta{
+  width:100%;
+  background-color: black;
+  color: white;
+}
+
+#box{
+  align-self: center;
+  width: 97%; 
+}
