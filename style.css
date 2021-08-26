@@ -1,12 +1,13 @@
 body{
   background-color: lightblue;
   color: black;
-  ;
+  list-style: 
 
 }
 div{
   background-color: aquamarine; 
   text-align: center;
+  
   
 }
 ul{
@@ -29,10 +30,12 @@ ul{
   width: 100%;
 }
 #check{
-  background-color: lightblue;
+  background-color: grey;
   text-align: left;
-  width: 70%; 
-  margin: auto;
+  width: 75%; 
+  height: 5%;
+  margin: 1%;
+  align-self: center;
 }
 #merkinta{
   width:100%;
@@ -43,4 +46,19 @@ ul{
 #box{
   align-self: center;
   width: 97%; 
+}
+
+#suoritettavat{
+  background-color: lightblue;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+#box2{
+  align-self: center;
+  width: 97%; 
+}
+.ilmoitus{
+  background-color: lightblue;
 }
