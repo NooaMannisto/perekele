@@ -6,13 +6,11 @@ document.querySelector('.lisaa').addEventListener('click', e =>{
 
 document.querySelector('.ilmoitus').innerHTML = document.querySelector('#box').value + ": "+document.querySelector('#box2').value;
 
-if (box.value.length == 0){
-alert("fock ye")  
-/*setTimeout(() => document.querySelector('.lisaa').innerHTML='PERKELE LISÄÄ PASKAA' , 3000);
-*/
-}
-if (box2.value.length == 0){
-alert("fock ye")  
+if (box.value.length == 0 || box2.value.length == 0){
+  document.querySelector('.varoitus').innerHTML = 'Täytä kaikki aaaaaaa';  
+
+setTimeout(() => document.querySelector('.varoitus').innerHTML='', 3000);
+
 }
 
 

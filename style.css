@@ -62,3 +62,6 @@ ul{
 .ilmoitus{
   background-color: lightblue;
 }
+.varoitus{
+  background-color: red;
+}
